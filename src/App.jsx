@@ -1,21 +1,20 @@
-import React from "react";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <div>
-      <p></p>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route
-          path="/movieshow"
-          element={<MovieShow searchMovies={searchMovies} />}
-        />
-        <Route path="/movieshow/:id" element={<MoviesOpenPage />} />
-        <Route path="/support" element={<Support />} />
-        <Route path="/subscriptions" element={<Subscription />} />
-      </Routes>
+      <div className="container">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/components" element={<Components />} />
+          <Route path="/pages" element={<Pages />} />
+          <Route path="/docs" element={<Docs />} />
+        </Routes>
+      </div>
     </div>
   );
 };
 
 export default App;
+
