@@ -14,6 +14,16 @@ export default {
         center: true,
       },
     },
+    fontFamily: {
+      barlow: '"Barlow"',
+    },
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      half: "50%",
+      16: "4rem",
+    },
     fontSize: {
       "xl-custom": "1.125rem",
     },
