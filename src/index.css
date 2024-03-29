@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .bg-gradient-to-bottom {
+    background: linear-gradient(
+        to bottom,
+        rgba(22, 28, 36, 0.8),
+        rgba(22, 28, 36, 0.8)
+      ),
+      url(https://zone-ui.vercel.app/assets/images/home/for_designer.jpg),
+      no-repeat;
+  }
+  .bg-gradient-to-center {
+    background: linear-gradient(
+        to bottom,
+        rgba(22, 28, 36, 0.8),
+        rgba(22, 28, 36, 0.8)
+      ),
+      url(https://zone-ui.vercel.app/assets/images/home/advertisement.jpg),
+      no-repeat;
+  }
+}
+
 @layer base {
   * {
     font-family: "Public Sans", "Barlow", Helvetica, sans-serif;
@@ -32,5 +53,10 @@
   p {
     margin: 0;
     padding: 0;
+  }
+  .scrollIndicator {
+    height: 4px;
+    background: linear-gradient(135deg, #fdab76 0%, #fa541c 100%);
+    width: 0%;
   }
 }

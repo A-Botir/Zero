@@ -13,6 +13,10 @@ export default {
         },
         center: true,
       },
+      boxShadow: {
+        card1: "-8px 8px 24px -4px rgb(145 158 171 / 8%)",
+        card2: "-24px 24px 72px -8px rgb(145 158 171 / 24%)",
+      },
     },
     fontFamily: {
       barlow: '"Barlow"',

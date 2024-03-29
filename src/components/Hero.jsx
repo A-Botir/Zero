@@ -27,10 +27,10 @@ const Hero = () => {
             Figma Workspace
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               aria-hidden="true"
               role="img"
-              class="component-iconify MuiBox-root css-1t9pz9x iconify iconify--carbon"
+              className="component-iconify MuiBox-root css-1t9pz9x iconify iconify--carbon"
               width="1.25em"
               height="1.25em"
               viewBox="0 0 32 32"
